@@ -27,23 +27,23 @@ export const exploreWorlds = [
 ];
 
 export const startingFeatures = [
-  "Find a world that suits you and you want to enter",
-  "Enter the world by reading basmalah to be safe",
-  "No need to beat around the bush, just stay on the gas and have fun",
+  "Submit a contacting request on our contact form ",
+  "Dicuss how you want your exclusive website for your loved one look like",
+  "Recieve the lavish gift, show it to your loved one and make more memories",
 ];
 
 export const newFeatures = [
   {
-    imgUrl: "/vrpano.svg",
-    title: "A new world",
+    imgUrl: "/headset.svg",
+    title: "Gamified Design ",
     subtitle:
-      "we have the latest update with new world for you to try never mind",
+      "We now provide a custom website with game mechanics to make the unboxing process unforgettable",
   },
   {
-    imgUrl: "/headset.svg",
-    title: "More realistic",
+    imgUrl: "/",
+    title: "Cutting Edge Security",
     subtitle:
-      "In the latest update, your eyes are narrow, making the world more realistic than ever",
+      "In the latest update, you can authentication to your lavish website",
   },
 ];
 

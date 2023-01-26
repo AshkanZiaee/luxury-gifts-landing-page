@@ -16,26 +16,20 @@ const About = () => (
       viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col`}
     >
-      <TypingText
-        title="| About Metaversus"
-        textStyles="text-center"
-      ></TypingText>
+      <TypingText title="| About Lavish" textStyles="text-center"></TypingText>
       <motion.p
         variants={fadeIn("up", "tween", 0.2, 1)}
         className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white"
       >
-        <span className="font-extrabold text-white">Metaverse</span> is a new
-        thing in the future, where you can enjoy the virtual world by feeling
-        like it's really real, you can feel what you feel in this metaverse
-        world, because this is really the{" "}
-        <span className="font-extrabold text-white">
-          madness of the metaverse of
-        </span>
-        today, using only <span className="font-extrabold text-white">VR </span>
-        devices you can easily explore the metaverse world you want, turn your
-        dreams into reality. Let's{" "}
-        <span className="font-extrabold text-white">explore</span>
-        the madness of the metaverse by scrolling down
+        {/* A luxury  */}a{" "}
+        <span className="font-extrabold text-white">Lavish </span>gift can serve
+        as a tangible reminder of your love and affection, making it a cherished
+        keepsake for years to come. Additionally,{" "}
+        <span className="font-extrabold text-white">luxury gifts </span>
+        often come with a sense of{" "}
+        <span className="font-extrabold text-white">exclusivity </span> and
+        rarity, making them all the more and special
+        <span className="font-extrabold text-white">meaningful</span>
       </motion.p>
       <motion.img
         variants={fadeIn("up", "tween", 0.3, 1)}
