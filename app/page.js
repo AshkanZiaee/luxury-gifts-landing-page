@@ -1,4 +1,5 @@
 import { Footer, Navbar } from "../components";
+import ContactForm from "../components/ContactForm";
 import {
   About,
   Explore,
@@ -29,7 +30,8 @@ const Page = () => (
     <div className="relative">
       {/* <Insights />
       <div className="gradient-04 z-0" /> */}
-      <Feedback />
+      {/* <Feedback /> */}
+      <ContactForm />
     </div>
     <Footer />
   </div>

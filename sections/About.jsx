@@ -21,15 +21,25 @@ const About = () => (
         variants={fadeIn("up", "tween", 0.2, 1)}
         className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white"
       >
-        {/* A luxury  */}a{" "}
-        <span className="font-extrabold text-white">Lavish </span>gift can serve
-        as a tangible reminder of your love and affection, making it a cherished
-        keepsake for years to come. Additionally,{" "}
-        <span className="font-extrabold text-white">luxury gifts </span>
-        often come with a sense of{" "}
-        <span className="font-extrabold text-white">exclusivity </span> and
-        rarity, making them all the more and special
-        <span className="font-extrabold text-white">meaningful</span>
+        {/* A luxury  */}
+        <span className="font-extrabold text-white">Lavish </span> specializes
+        in creating the perfect gift through a{" "}
+        <span className="font-extrabold text-white">
+          luxurious private websites
+        </span>{" "}
+        embeded with the{" "}
+        <span className="font-extrabold text-white">memories</span> of you, and
+        your partner together, Upon accessing the exclusive website link
+        provided to your significant other, they will be greeted with opulent{" "}
+        <span className="font-extrabold text-white">animations </span>
+        and a selection of{" "}
+        <span className="font-extrabold text-white">choices </span>
+        pertaining to your collective memories, presented in a{" "}
+        <span className="font-extrabold text-white">gamified format.</span> Each
+        astute choice made will lead them to the subsequent level, culminating
+        in an{" "}
+        <span className="font-extrabold text-white">ultimate message </span> at
+        the culmination of the maze
       </motion.p>
       <motion.img
         variants={fadeIn("up", "tween", 0.3, 1)}

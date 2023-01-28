@@ -27,9 +27,9 @@ export const exploreWorlds = [
 ];
 
 export const startingFeatures = [
-  "Submit a contacting request on our contact form ",
-  "Dicuss how you want your exclusive website for your loved one look like",
-  "Recieve the lavish gift, show it to your loved one and make more memories",
+  "Submit a request via our exclusive contact submission form, and secure your place on our esteemed waitlist.",
+  "Articulate the cherished memories you desire to be incorporated within your lavish present.",
+  "Acquire the lavish gift, unveil it to your beloved, and create further cherishable memories.",
 ];
 
 export const newFeatures = [
@@ -37,13 +37,13 @@ export const newFeatures = [
     imgUrl: "/headset.svg",
     title: "Gamified Design ",
     subtitle:
-      "We now provide a custom website with game mechanics to make the unboxing process unforgettable",
+      "We are delighted to offer a bespoke website, incorporating game-like mechanics to elevate the experience of unboxing, making it an unforgettable moment.",
   },
   {
-    imgUrl: "/",
+    imgUrl: "/cybersecurity.png",
     title: "Cutting Edge Security",
     subtitle:
-      "In the latest update, you can authentication to your lavish website",
+      "In the latest update, the ability to add custom authentication to your lavish website is provided.",
   },
 ];
 
