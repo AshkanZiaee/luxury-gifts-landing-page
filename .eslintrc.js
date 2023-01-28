@@ -69,5 +69,4 @@ module.exports = {
       },
     ],
   },
-  quotes: [0, "single"],
 };
