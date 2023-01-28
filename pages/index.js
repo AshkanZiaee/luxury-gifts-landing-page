@@ -1,5 +1,5 @@
 import { Footer, Navbar } from "../components";
-// import ContactForm from "../components/ContactForm";
+import ContactForm from "../components/ContactForm";
 import { About, GetStarted, Hero, WhatsNew, World } from "../sections";
 
 const Page = () => (
@@ -22,7 +22,7 @@ const Page = () => (
       {/* <Insights />
       <div className="gradient-04 z-0" /> */}
       {/* <Feedback /> */}
-      {/* <ContactForm /> */}
+      <ContactForm />
     </div>
     <Footer />
   </div>
