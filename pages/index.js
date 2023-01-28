@@ -1,15 +1,6 @@
 import { Footer, Navbar } from "../components";
-import ContactForm from "../components/ContactForm";
-import {
-  About,
-  Explore,
-  Feedback,
-  GetStarted,
-  Hero,
-  Insights,
-  WhatsNew,
-  World,
-} from "../sections";
+// import ContactForm from "../components/ContactForm";
+import { About, GetStarted, Hero, WhatsNew, World } from "../sections";
 
 const Page = () => (
   <div className="bg-primary-black overflow-hidden">
