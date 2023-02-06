@@ -2,7 +2,10 @@ import React from "react";
 
 const ContactForm = () => {
   return (
-    <div className="flex flex-col gap-8 justify-center items-center ">
+    <div className="flex flex-col gap-8 justify-center items-center">
+      <img src="/left.png" className="left-0 absolute w-[32em] z-[10]" />
+      <img src="/right.png" className="right-0 absolute w-[32em] z-[10]" />
+
       <input
         type="text"
         className="text-center rounded text-[#ffffff] bg-[#2f2f2f] w-[25em] h-[3em] border-[#A77207] outline-transparent"
@@ -20,13 +23,13 @@ const ContactForm = () => {
       />
 
       <textarea
-        className="text-center rounded text-[#ffffff] bg-[#2f2f2f] w-[25em] h-[3em] outline-transparent "
+        className="text-center rounded text-[#ffffff] bg-[#2f2f2f] w-[25em] h-[4.5em] outline-transparent placeholder:translate-y-6 "
         placeholder="Brief Description Regarding Your Inquiry"
       />
       <div className="flex items-center justify-between flex-wrap gap-5">
         <button
           type="button"
-          className="flex items-center h-fit py-4 px-6 bg-[#b67320] rounded-[32px] gap-[12px]"
+          className="flex items-center h-fit py-4 px-6 bg-gradient-to-t from-[#cdae69] to-[#f8eabb] rounded-[32px] gap-[12px]"
         >
           <img
             src="/headset.svg"
