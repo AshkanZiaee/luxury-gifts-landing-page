@@ -20,10 +20,10 @@ const Footer = () => (
         <div className="mb-[50px] h-[2px] bg-white opacity-10 w-[100vw] absolute left-0" />
         <div className="flex items-center justify-between flex-wrap gap-4 mt-[1rem]">
           <h4 className="font-extrabold text-[24px] text-white ">Lavish</h4>
-          <p className="font-normal text-[14px] text-white opacity-50 text-center">
+          <p className="font-normal text-[14px] text-white opacity-50 text-center ">
             Copyright © 2023 Lavish. All rights reserved.
           </p>
-          <div className="flex gap-4">
+          {/* <div className="flex gap-4">
             {socials.map((social) => (
               <img
                 key={social.name}
@@ -32,7 +32,7 @@ const Footer = () => (
                 className="w-[24px] h-[24px] object-contain cursor-pointer"
               />
             ))}
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
