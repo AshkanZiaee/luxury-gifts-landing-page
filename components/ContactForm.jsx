@@ -3,8 +3,8 @@ import React from "react";
 const ContactForm = () => {
   return (
     <div className="flex flex-col gap-8 justify-center items-center">
-      <img src="/left.png" className="left-0 absolute w-[32em] z-[10]" />
-      <img src="/right.png" className="right-0 absolute w-[32em] z-[10]" />
+      <img src="/left.png" className="left-0 absolute w-[33em] z-[10]" />
+      <img src="/right.png" className="right-0 absolute w-[33em] z-[10]" />
 
       <input
         type="text"
